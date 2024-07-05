@@ -1,12 +1,5 @@
 
-function isEnoughCapacity(products, containerSize){
-   let totalAmount =0;
-   for(const product of Object.values(products) ){
-     totalAmount += product;
-   }
-      return (totalAmount <= containerSize)?true:false; 
-   
- }
+
  const getUserNames = users => users.map(user => user.name);
        
  

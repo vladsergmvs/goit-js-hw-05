@@ -1,5 +1,6 @@
 
-const getUsersWithFriend = (users, friendName) ={}
+
+const getUsersWithFriend = (users, friendName) => users.filter(user => user.friends.includes(friendName));
 
 console.log("====================  task-2  ====================="); 
 
